@@ -1,0 +1,1 @@
+(()=>{var s=Object.defineProperty;var p=(r,a,e)=>a in r?s(r,a,{enumerable:!0,configurable:!0,writable:!0,value:e}):r[a]=e;var t=(r,a,e)=>(p(r,typeof a!="symbol"?a+"":a,e),e);var m=class{constructor(){let a=document.getElementById("custom-params");m.params=JSON.parse(a.dataset.params),a.remove()}getParams(){return m.params}},o=m;t(o,"params");window.ParamsManager=new o;})();
